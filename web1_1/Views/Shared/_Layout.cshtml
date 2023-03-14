@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - web1_1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="lib/font-awesome/css/all.css" rel="stylesheet" />
+</head>
+<body>
+    <header> 
+        @*<div class="float-left">
+            <img src="~/images/invaKOL.jpg.png" class="img-fluid" alt="Responsive image" width="56" height="56">
+        </div>  *@
+        
+        <div class="container">
+            <!-- Панель навигации -->
+            <nav class="navbar navbar-expand navbar-collapse bg-dark">
+                <!-- меню сайта -->
+                <a class="navbar-brand" asp-action="Index" asp-controller="Home">Инвалидные коляски</a>
+                <div class="navbar-nav">
+                    @await Component.InvokeAsync("Menu")
+                </div>
+                <!-- меню сайта - конец -->
+                <!-- Информация пользователя -->
+                <partial name="_UserPartial" />
+                <!-- Информация пользователя - конец -->
+            </nav> <!-- Панель навигации - конец -->
+        </div><!-- container - конец -->
+    </header><!-- header - конец -->
+        <main class="container">
+           @RenderBody()
+        </main>
+    
+    <footer class="fixed-bottom">
+        <div class="container ">
+            <div class="navbar navbar-collapse navbar-expand-sm bg-dark">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="https://vk.com/iskovandrey">
+                        <i class="fab fa-vk fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fab fa-telegram fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="https://www.instagram.com/andrey_iskov/">
+                        <i class="fab fa-instagram fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fab fa-viber fa-2x"></i>
+                    </a>
+                    <a class="nav-item nav-link" href="#">
+                        <i class="fab fa-whatsapp fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,79 @@
+﻿@model ListViewModel<Wheelchair>
+
+@{
+    ViewData["Title"] = "Меню";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var categories = ViewData["Groups"] as IEnumerable<WheelchairGroup>;
+    int currentGroup = (int)ViewData["CurrentGroup"];
+    var text = currentGroup != 0
+    ? categories
+    .FirstOrDefault(g => g.WheelchairGroupId == currentGroup)?
+    .GroupName
+    : "Выбрать инва-коляску";
+}
+
+<div class="row">
+    <div class="col-0">
+        <div class="dropdown mt-2">
+            <a class="btn btn-warning dropdown-toggle"
+                asp-action="Index" asp-controller="Product"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                @text
+            </a>
+            <div class="dropdown-menu"
+                    aria-labelledby="dropdownMenuLink">
+
+                <a class="dropdown-item"
+                    asp-action="Index"
+                    asp-controller="Product">Все</a>
+                @foreach (var item in categories)
+                {
+                    <a class="dropdown-item"
+                    asp-action="Index"
+                    asp-controller="Product"
+                    asp-route-group="@item.WheelchairGroupId"
+                    asp-route-pageNo="1">@item.GroupName</a>
+                }
+            </div>
+        </div>
+    </div>
+   
+    <form asp-controller="Product" asp-action="Index" class="col-8 form-inline" method="post">
+        <div>
+            Поиск инвалидной коляски: <input asp-for="SearchQuery" type="text" name="SearchQuery" class="btn-outline-primary"/>
+        </div>
+        <div>
+            <input class="btn btn-info m-2" type="submit" value="Поиск" />
+        </div>
+        <div>
+            <button onclick="clearAndSubmitForm()" class="btn btn-danger">Очистить</button>
+        </div>
+    </form>
+    
+    <div class="col-12">
+        <div class="card-group" id="list">
+            <partial name="_ListPartial" model="@Model" />
+        </div>
+        
+        <pager page-current="@Model.CurrentPage"
+               page-total="@Model.TotalPages"
+               action="Index"
+               controller="Product"
+               group-id="@currentGroup"></pager>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+    function clearAndSubmitForm() {
+        const input = document.querySelector('input[name="SearchQuery"]');
+        input.value = '';
+        const form = document.querySelector('form');
+        form.submit();
+    }
+    </script>
+}

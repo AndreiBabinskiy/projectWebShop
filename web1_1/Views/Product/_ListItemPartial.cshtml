@@ -1,0 +1,36 @@
+﻿@model Wheelchair
+
+<div class='card m-2 p-1 text-center col-4'>
+    <img src="~/images/@Model.Image"
+         alt='NoImage'
+         class="card-img-top"
+         width="200" height="250"/>
+    <div class="card-body">
+        <h5 class="card-title">
+            @Model.WheelchairName
+        </h5>
+        <p class="card-text">
+            Описание:
+            @Model.Description
+        </p>
+        <div class="card-text badge badge-primary">
+            <h6>Цена @Model.Price y.e </h6>
+        </div>
+        @{
+            // Получение текущего адреса
+            var request = ViewContext.HttpContext.Request;
+            var returnUrl = request.Path +
+            request.QueryString.ToUriComponent();
+        }
+        <!--Разметка кнопки добавления в корзину-->
+        <p class="mt-2">
+            <a asp-action="Add"
+               asp-controller="Cart"
+               asp-route-id="@Model.WheelchairId"
+               asp-route-returnUrl="@returnUrl"
+               class="btn btn-success">
+                <i class="fa fa-shopping-cart"></i> В корзину
+            </a>
+        </p>
+    </div>
+</div>

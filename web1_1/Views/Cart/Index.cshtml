@@ -1,0 +1,91 @@
+﻿@model IEnumerable<web1_1.Models.CartItem>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Корзина</h1>
+<div style="width: 1300px; overflow: auto; height: 500px;">
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            
+            <th>
+                Название
+            </th>
+            <th>
+                Количество
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="~/Images/@item.Wheelchair1.Image" alt="No image"
+                     width="100" />
+                </td>
+                <td>
+                    @Html.DisplayFor(m=>item.Wheelchair1.WheelchairName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    <a asp-controller="Cart"
+                   asp-action="Delete"
+                   asp-route-id="@item.Wheelchair1.WheelchairId"
+                   class="btn btn-outline-danger">
+                        <i class="fas fa-trash-alt"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody> 
+</table>
+    <div class="d-flex">
+        <button type="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+            Оформление заказа
+        </button>
+    </div>
+    <!--Modal-->  
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class=" bg-primary text-danger">              
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Ваш Заказ</h5>                                
+                        </div>
+                        <div class="modal-body">                           
+                            <h4 class="text-red text-center">Спасибо, что выбрали наш магазин !</h4>
+                            <h6 class="text-info text-justify">После завершения заказа наш оператор-консультант свяжется с вами и проконсультирует по наличию товара на складе и уточнит детали заказа.</h6>                                        
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text text-primary bg-warning form-control-lg" id="addon-wrapping">Укажите:</span>
+                                <input type="text" class="form-control text-info " placeholder="Фамилия" aria-label="Фамилия" aria-describedby="addon-wrapping">
+                                <input type="text" class="form-control text-info " placeholder="Имя" aria-label="Имя" aria-describedby="addon-wrapping">        
+                            </div>
+                            <div class="input-group flex-nowrap">
+                                <input type="text-info" class="form-control text-info" placeholder="Телефон" aria-label="Телефон" aria-describedby="addon-wrapping">
+                            </div>                       
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+                            <div class="btn btn-outline-success">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <a asp-controller="Cart" asp-action="OrderAll" class="btn btn-outline-success">
+                                            Заказать
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div> 
+    <!--Modal-->
+</div>

@@ -1,0 +1,53 @@
+﻿@*@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');*@
+
+@{
+    ViewData["Title"] = "Контакты";
+}
+
+<div class="nesolestag-enadenud">
+    <h1></h1>
+    <h2 style="text-align:center;" class="bg-primary">Контакты</h2>
+
+    <div class="ico-wrap">
+        <i class="fa fa-map-marker ico-contact"></i>
+    </div>
+    <div class="meanous-andscoev">
+        <h4 icon="title" class="alert-info">Самовывоз инвалидных колясок по адресу:</h4>
+        <div class="aio-icon-description">
+            220095, г. Минск, ул. Рокоссовского,
+            <br>дом 14, этаж 5, квартира 184
+        </div>
+    </div>
+
+    
+
+    <span class="kesednsoled"></span>
+
+    <div class="ico-wrap">
+        <i class="fa fa-envelope ico-contact"></i>
+    </div>
+    <div class="meanous-andscoev">
+        <h4 icon="title" class="alert-info">Электронная почта:</h4>
+        <div class="aio-icon-description">
+            inva_kol@mail.ru
+            <br>wheelcahir@gmail.com
+        </div>
+    </div>
+
+    <span class="kesednsoled"></span>
+
+    <div class="ico-wrap">
+        <i class="fa fa-phone ico-contact"></i>
+    </div>
+    <div class="meanous-andscoev">
+        <h4 icon="title" class="alert-info">Связь по телефону:</h4>
+        <div class="aio-icon-description">
+            <select asp-items="@ViewData["List1"] as SelectList">Список</select>
+        </div>
+    </div>
+
+    <span class="kesednsoled"></span>
+
+</div>
+</div>
+

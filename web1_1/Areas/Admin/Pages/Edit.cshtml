@@ -1,0 +1,74 @@
+﻿@page "{id:int}"
+@model web1_1.Areas.Admin.Pages.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+@section Scripts{
+    <script src="~/js/bs-custom-file-input.js"></script>
+
+    <script>
+        bsCustomFileInput.init();
+    </script>
+}
+
+<h1>Изменить</h1>
+
+<h4>Инвалидная коляска</h4>
+<hr />
+<div style="width: 1300px; overflow: auto; height: 580px;">
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Wheelchair.WheelchairId" />
+            <div class="form-group">
+                @if (!string.IsNullOrEmpty(Model.Wheelchair.Image))
+                {
+                    <img src=~/Images/@Model.Wheelchair.Image
+                     alt="NoSuchFile" width="60" />
+
+                }
+                else
+                {
+                    <h4>Файл изображения не задан</h4>
+                }
+                <div class="custom-file mt-3">
+                    <input type="file" class="custom-file-input"
+                           asp-for="Image" id="customFile">
+                    <label class="custom-file-label" for="customFile">
+                        Выберите файл изображения
+                    </label>
+
+                </div>
+            <div class="form-group">
+                <label>Название</label>
+                <input asp-for="Wheelchair.WheelchairName" class="form-control" />
+                <span asp-validation-for="Wheelchair.WheelchairName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Описание</label>
+                <input asp-for="Wheelchair.Description" class="form-control" />
+                <span asp-validation-for="Wheelchair.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Цена</label>
+                <input asp-for="Wheelchair.Price" class="form-control" />
+                <span asp-validation-for="Wheelchair.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Катинка</label>
+                <input asp-for="Wheelchair.Image" class="form-control" />
+                <span asp-validation-for="Wheelchair.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Тип инвалидной коляски</label>
+                <select asp-for="Wheelchair.WheelchairGroupId" class="form-control" asp-items="ViewBag.WheelchairGroupId"></select>
+                <span asp-validation-for="Wheelchair.WheelchairGroupId" class="text-danger"></span>
+            </div>
+                    <input type="submit" value="Сохранить" class="btn btn-info" /> |
+                    <a asp-page="./Index">Вернуться назад</a>
+        </form>
+    </div>
+</div>

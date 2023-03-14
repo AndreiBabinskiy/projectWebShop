@@ -1,0 +1,119 @@
+C:\Users\anduser\Desktop\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+C:\Users\anduser\Desktop\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\anduser\Desktop\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\anduser\Desktop\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anduser\Desktop\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+C:\Users\anduser\Desktop\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+C:\Users\anduser\Desktop\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+C:\Users\anduser\Desktop\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\anduser\Desktop\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\anduser\Downloads\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\Андрей\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\с_миграциями_проектМой\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+E:\ИИТ\Переподготовка\ВТ\10321-1\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\Alexander\Desktop\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\Диплом\Бабинский 2.0\Бабинский\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+C:\Users\Alexander\Desktop\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.deps.json
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\bin\Debug\netcoreapp3.1\web1_1.DAL.pdb
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.AssemblyReference.cache
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfoInputs.cache
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.AssemblyInfo.cs
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.csproj.CoreCompileInputs.cache
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.dll
+D:\[-БГУИР-]\Диплом\проект2022\web1_1.DAL\obj\Debug\netcoreapp3.1\web1_1.DAL.pdb

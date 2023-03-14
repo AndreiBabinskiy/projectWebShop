@@ -1,0 +1,24 @@
+﻿@using BlazorApp1.Data;
+
+@if (Wheelchair != null)
+{
+    <img src="@imageSrc" class="img-thumbnail" width="150" />
+    <div>
+        <p>@Wheelchair.WheelchairName - @Wheelchair.Description</p>
+        <div class="badge badge-info ">@Wheelchair.Price y.e</div>
+    </div>
+}
+@code {
+
+    [Parameter]
+    public DetailsViewModel Wheelchair { get; set; }
+    [Parameter]
+    public EventCallback<DetailsViewModel> WheelchairChanged { get; set; }
+    string imageSrc
+    {
+        get
+        {
+            return $"https://localhost:44322/images/{Wheelchair.Image}";
+        }
+    }
+}

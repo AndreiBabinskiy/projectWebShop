@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Главная страница";
+}
+
+@*<h1>@ViewData["Text"]</h1>
+<h2>Список</h2>
+<ol type="A">
+    @for (int i = 1; i<5; i++)
+    {
+        <li>элемент @i списка</li>
+    }
+</ol>
+
+<hr/>
+
+<select asp-items="@ViewData["List1"] as SelectList">Список</select>*@
+
+
+
+<div class="car">
+    <div class="weel weel1"></div>
+    @*<div class="weel weel2"></div>*@
+</div>
+
+<marquee direction="down" height="450" scrollamount="3" style="border: 10px solid #009533; text-align: center; color: #f2132d; font-size: 30px; font-weight: bolder; line-height: 150%; text-shadow: #000950 0px 2px 2px;" width="100%">
+    <h3>
+        <br>5. Складные инвалидные кресла рычажного типа
+    </h3>
+    <h3>
+        <br>4. Кресло-коляски для инвалидов с ручным приводом
+    </h3>
+    <h3>
+        <br>3. Кресло-коляски для инвалидов с ДЦП
+    </h3>
+    <h3>
+        <br>2. Инвалидные коляски с электроприводом
+    </h3>
+    <h3>
+        <br>1. Активные инвалидные коляски
+    </h3>
+    <h2>
+        <br> ^   ^   ^
+        <br> |   |   |
+        <br>Вы можите ознакомиться с нашим перечнем инвалидных колясок!
+    </h2>
+    <h1>
+        <br>"INVA_KOL"
+        <br>Добро пожаловать в наш магазин инвалидных колясок 
+    </h1>
+    </marquee>

@@ -1,0 +1,49 @@
+﻿@page
+@model web1_1.Areas.Admin.Pages.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Wheelchair</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Wheelchair.WheelchairName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.WheelchairName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Wheelchair.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Wheelchair.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Wheelchair.Image)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Image)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Wheelchair.Group)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Group.WheelchairGroupId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Wheelchair.WheelchairId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

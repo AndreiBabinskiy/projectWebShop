@@ -1,0 +1,59 @@
+﻿@page
+@model web1_1.Areas.Admin.Pages.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@section Scripts{
+    <script src="~/js/bs-custom-file-input.js"></script>
+
+    <script>
+        bsCustomFileInput.init();
+    </script>
+}
+
+<h1>Добавить</h1>
+
+<h4>Инвалидная коляска</h4>
+<hr />
+<div style="width: 1300px; overflow: auto; height: 580px;">
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label>Название</label>
+                <input asp-for="Wheelchair.WheelchairName" class="form-control" />
+                <span asp-validation-for="Wheelchair.WheelchairName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Описание</label>
+                <input asp-for="Wheelchair.Description" class="form-control" />
+                <span asp-validation-for="Wheelchair.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Цена</label>
+                <input asp-for="Wheelchair.Price" class="form-control" />
+                <span asp-validation-for="Wheelchair.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Картинка</label>
+                <div class="custom-file mt-3">
+                    <input type="file" asp-for="Image"
+                           class="custom-file-input" id="customFile">
+                    <label class="custom-file-label"
+                           for="customFile">Выберите файл</label>
+                </div>
+                <input asp-for="Wheelchair.Image" class="form-control" />
+                <span asp-validation-for="Wheelchair.Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Тип инвалидной коляски</label>
+                <select asp-for="Wheelchair.WheelchairGroupId" class ="form-control" asp-items="ViewBag.WheelchairGroupId"></select>
+            </div>
+                <input type="submit" value="Добавить" class="btn btn-success" /> |
+                <a asp-page="./Index">Вернуться назад</a>
+        </form>
+    </div>
+</div>

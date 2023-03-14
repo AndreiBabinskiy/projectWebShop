@@ -1,0 +1,3 @@
+2023-01-06T21:15:02.6462451+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2023-01-06T21:15:02.6598234+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2023-01-06T21:15:02.6600593+03:00  [INF] Content root path: "D:\[-БГУИР-]\4 семестр\ВТ\Бабинский_проект2022\Бабинский_проект2022\Бабинский_проект2022\проект2022\web1_1" (b5d60022)

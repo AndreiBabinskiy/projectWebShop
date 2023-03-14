@@ -1,0 +1,42 @@
+﻿@using BlazorApp1.Data;
+
+<h3>WheelchairsList</h3>
+@if (Wheelchairs == null)
+{
+    <p>Загрузка ...</p>
+}
+else
+{
+    <div class="list-group">
+        @{
+            var i = 1;
+            foreach (var wheelchair in Wheelchairs)
+            {
+
+                <button type="button" 
+                        class="list-group-item list-group-item-action @(SelectedId == wheelchair.WheelchairId ? "active" : "")"
+                        @onclick="@(e => Selected(e, wheelchair.WheelchairId))">
+                    @(i++) - @wheelchair.WheelchairName
+                </button>
+            }
+        }
+    </div>
+}
+
+@code {
+    [Parameter] 
+    public IEnumerable<ListViewModel> Wheelchairs { get; set; }
+    [Parameter]
+    public EventCallback<IEnumerable<ListViewModel>> WheelchairsChanged
+    {
+        get; set;
+    }
+    private int SelectedId = 0;
+    [Parameter]
+    public EventCallback<int> SelectedObjectChanged { get; set; }
+    private void Selected(MouseEventArgs e, int id)
+    {
+        SelectedId = id;
+        SelectedObjectChanged.InvokeAsync(id);
+    }
+}

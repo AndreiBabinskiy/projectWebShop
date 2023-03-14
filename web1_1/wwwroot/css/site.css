@@ -1,0 +1,194 @@
+﻿header, footer {
+    background-color: #343a40;
+}
+
+.nav-color {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.h {
+    height: auto;
+}
+
+.car {
+    margin: 0 auto;
+    position: relative;
+    width: 400px;
+    animation: moving 10s linear -2s infinite;
+}
+
+    .car:before {
+        content: "";
+        display: block;
+        animation: carmove 3.1s infinite linear;
+        background: url('../images/kol111.png') center/cover;
+        padding-top: 45.25%;
+    }
+
+.weel {
+    animation: wheel 10s infinite -2s linear;
+    background: url('https://i.stack.imgur.com/0Osjx.png') center/cover;
+    position: absolute;
+    bottom: 0.8%;
+    width: 10.15%;
+}
+
+    .weel:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+.weel1 {
+    left: 17.5%;
+}
+
+.weel2 {
+    right: 20%;
+}
+
+animations
+@keyframes carmove {
+    0% {
+        transform: translateY(0px);
+    }
+
+    25% {
+        transform: translateY(1px)
+    }
+
+    29% {
+        transform: translateY(2px)
+    }
+
+    33% {
+        transform: translateY(3px)
+    }
+
+    47% {
+        transform: translateY(0px)
+    }
+
+    58% {
+        transform: translateY(1px)
+    }
+
+    62% {
+        transform: translateY(2px)
+    }
+
+    66% {
+        transform: translateY(3px)
+    }
+
+    75% {
+        transform: translateY(1px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+
+}
+
+@keyframes wheel {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    35% {
+        transform: rotate(-920deg)
+    }
+
+    36%, 56% {
+        transform: rotate(-920deg)
+    }
+
+    100% {
+        transform: rotate(-1440deg)
+    }
+}
+
+@keyframes moving {
+    0% {
+        right: -80em;
+        animation-timing-function: ease-out;
+    }
+
+    35% {
+        right: 0;
+    }
+
+    36%, 56% {
+        right: 0;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        right: 120%;
+    }
+}
+
+body {
+    overflow: hidden;
+}
+
+.nesolestag-enadenud {
+    width: 615px;
+    margin: 0 auto;
+}
+
+.kesednsoled:after,
+.kesednsoled:before {
+    content: ".";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+.ico-wrap {
+    color: #a612d4;
+    width: 48px;
+    height: 48px;
+    margin: 30px 18px 5px 5px;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid #9d1cb7;
+    float: left;
+    border-radius: 30px;
+}
+
+.ico-contact {
+    line-height: 1.9 !important;
+}
+
+.meanous-andscoev {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.aio-icon-title {
+    font-size: 16px;
+    color: #950c96;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767px) {
+    .meanous-andscoev,
+    .ico-wrap {
+        float: none;
+        text-align: center;
+    }
+
+    .ico-wrap {
+        margin: 0 auto 15px auto;
+    }
+}
+

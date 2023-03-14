@@ -1,0 +1,30 @@
+﻿@page "/apidemo"
+@inject HttpClient client
+@using BlazorApp1.Components;
+@using BlazorApp1.Data;
+
+<div class="container">
+    <WheelchairsList @bind-Wheelchairs="wheelchairs" SelectedObjectChanged="ShowDetails"></WheelchairsList>
+    @*<WheelchairsList @bind-Wheelchairs="wheelchairs" SelectedObjectChanged="ShowDetails"></WheelchairsList>*@
+    <WhelchairDetails @bind-Wheelchair="SelectedWheelchair"></WhelchairDetails>
+</div>
+
+@code {
+    [Parameter]
+    public IEnumerable<ListViewModel> wheelchairs { get; set; }
+    //public DetailsViewModel SelectedWheelchair { get; set; }
+
+    string apiBaseAddress = "https://localhost:44322/api/Wheelchairs";
+    protected override async Task OnInitializedAsync()
+    {
+        wheelchairs = await client.GetFromJsonAsync<IEnumerable<ListViewModel>>(apiBaseAddress);
+    }
+
+    [Parameter]
+    public DetailsViewModel SelectedWheelchair { get; set; }
+    private async Task ShowDetails(int id)
+    {
+        SelectedWheelchair = await client.GetFromJsonAsync<DetailsViewModel>(apiBaseAddress + $"/{id}");
+
+    }
+}

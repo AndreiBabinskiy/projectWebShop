@@ -1,0 +1,54 @@
+﻿@page "{id:int}"
+@model web1_1.Areas.Admin.Pages.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Удалить</h1>
+
+<h3>Вы точно хотите удалить?</h3>
+<div style="width: 1300px; overflow: auto; height: 580px;">
+<div>
+    <h4>Инвалидная коляска</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            <label>Название</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.WheelchairName)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Описание</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Description)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Цена</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Price)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Картинка</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Image)
+        </dd>
+        <dt class="col-sm-2">
+            <label>Группа</label>
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Wheelchair.Group.WheelchairGroupId)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Wheelchair.WheelchairId" />
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-page="./Index">Вернуться назад</a>
+    </form>
+</div>
+</div>
